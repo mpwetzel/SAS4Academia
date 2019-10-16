@@ -1100,21 +1100,3 @@ ODS PATH WORK.TEMPLAT(UPDATE)
 %mend; 
 
 
-
-
-/*--------------------------------------------------------------*/
-/*							Sample Call							*/
-/*--------------------------------------------------------------*/
-
-/*libname out "C:\Users\mwetze2\Box Sync\Standard Code\Sandbox\Test Output";*/
-/**/
-/*%DESCRIPTIVE(*/
-/*	DATASET=analytic2, /* Input data set */
-/*	DRIVER=C:\Users\mwetze2\Box Sync\Standard Code\Sandbox\Test Output\Test Var List Code Driver.xlsx, /* File path and name for Excel driver file - no quotes*/
-/*	OUTLIB=out , /* Name of library to save out SAS data sets to */
-/*	OUTPATH=C:\Users\mwetze2\Box Sync\Standard Code\Sandbox\Test Output, /* File pathway for RTF output, no quotes */
-/*	FNAME=Testing,  /* File name for RTF output */
-/*	CLASSVAR=ERAS, /* CAN ONLY TAKE ONE CLASS VARIABLE */
-/*	ODSGRAPHS=N, /* Create or suppress ODS graphics (Y/N) */
-/*	FEXACT=Y,	/* Run Fisher's exact tests - See note at top of program */
-/*	ROUNDTO=0.01); /* Decimal place to round results to */
